@@ -16,6 +16,7 @@ public class EchpochmakMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "echpochmak"), ECHPOCHMAK);
+		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "superechpochmak"), SuperEchpochmak);
 	}
 
 }
