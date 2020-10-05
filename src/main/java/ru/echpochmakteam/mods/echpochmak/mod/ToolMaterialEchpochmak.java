@@ -11,12 +11,12 @@ public class ToolMaterialEchpochmak implements ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 1.5f;
+        return 2.0f;
     }
 
     @Override
     public float getAttackDamage() {
-        return 0.0f;
+        return 1.0f;
     }
 
     @Override
