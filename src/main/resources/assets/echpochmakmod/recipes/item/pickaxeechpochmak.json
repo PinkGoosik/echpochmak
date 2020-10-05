@@ -2,19 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    " / ",
-    " / "
+    " X ",
+    " X "
   ],
   "key": {
     "#": {
       "item": "echpochmakmod:echpochmak"
     },
-    "/": {
+    "X": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "echpochmakmod:pickaxeechpochmak",
-    "count": 1
+    "item": "echpochmakmod:pickaxeechpochmak"
   }
 }
