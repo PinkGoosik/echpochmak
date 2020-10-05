@@ -17,6 +17,7 @@ public class EchpochmakMod implements ModInitializer {
 	public void onInitialize() {
 		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "echpochmak"), ECHPOCHMAK);
 		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "superechpochmak"), SUPERECHPOCHMAK);
+		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "pickaxeechpochmak"), new PickaxeEchpochmak(new ToolMaterialEchpochmak()));
 	}
 
 }
