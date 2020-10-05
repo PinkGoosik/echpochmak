@@ -12,11 +12,11 @@ import net.minecraft.util.registry.Registry;
 
 public class EchpochmakMod implements ModInitializer {
 	public static final Item ECHPOCHMAK = new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().saturationModifier(6f).hunger(4).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION,20*10),1f).build()));
-	public static final Item SuperEchpochamk = new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().saturationModifier(12f).hunger(8).build()));
+	public static final Item SUPERECHPOCHMAK = new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().saturationModifier(12f).hunger(8).build()));
 	@Override
 	public void onInitialize() {
 		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "echpochmak"), ECHPOCHMAK);
-		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "superechpochmak"), SuperEchpochmak);
+		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "superechpochmak"), SUPERECHPOCHMAK);
 	}
 
 }
