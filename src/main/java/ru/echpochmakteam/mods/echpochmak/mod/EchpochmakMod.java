@@ -18,8 +18,13 @@ public class EchpochmakMod implements ModInitializer {
 	public void onInitialize() {
 		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "echpochmak"), ECHPOCHMAK);
 		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "superechpochmak"), SUPERECHPOCHMAK);
-		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "pickaxeechpochmak"), new PickaxeEchpochmak(new ToolMaterialEchpochmak()));
 		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "onion"), ONION);
+		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "swordechpochmak"), new SwordEchpochmak(new ToolMaterialEchpochmak()));
+		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "pickaxeechpochmak"), new PickaxeEchpochmak(new ToolMaterialEchpochmak()));
+		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "axeechpochmak"), new AxeEchpochmak(new ToolMaterialEchpochmak()));
+		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "shovelechpochmak"), new ShovelEchpochmak(new ToolMaterialEchpochmak()));
+		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "hoeechpochmak"), new HoeEchpochmak(new ToolMaterialEchpochmak()));
+		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "superswordechpochmak"), new SuperSwordEchpochmak(new ToolMaterialSuperEchpochmak()));
 	}
 
 }
