@@ -7,6 +7,6 @@ import net.minecraft.item.ToolMaterial;
 
 public class PickaxeEchpochmak extends PickaxeItem {
     public PickaxeEchpochmak(ToolMaterial toolmaterial_1) {
-        super(toolmaterial_1, 1, 1, new Item.Settings().group(ItemGroup.TOOLS));
+        super(toolmaterial_1, 0, 1, new Item.Settings().group(ItemGroup.TOOLS));
     }
 }
