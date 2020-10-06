@@ -26,7 +26,7 @@ public class ToolMaterialEchpochmak implements ToolMaterial {
 
     @Override
     public int getEnchantability() {
-        return 0;
+        return 2;
     }
 
     @Override
