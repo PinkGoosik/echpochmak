@@ -2,5 +2,9 @@
   "item.echpochmakmod.echpochmak": "Echpochmak",
   "item.echpochmakmod.superechpochmak": "Super Echpochmak",
   "item.echpochmakmod.pickaxeechpochmak": "Echpochmak Pickaxe",
-  "item.echpochmakmod.onion": "Onion"
+  "item.echpochmakmod.onion": "Onion",
+  "item.echpochmakmod.axeechpochmak": "Echpochmak Axe",
+  "item.echpochmakmod.swordechpochmak": "Echpochmak Sword",
+  "item.echpochmakmod.hoeechpochmak": "Echpochmak Hoe",
+  "item.echpochmakmod.shovelechpochmak": "Echpochmak Shovel"
 }

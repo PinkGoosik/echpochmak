@@ -2,5 +2,9 @@
   "item.echpochmakmod.echpochmak": "Эчпочмак",
   "item.echpochmakmod.superechpochmak": "Супер Эчпочмак",
   "item.echpochmakmod.pickaxeechpochmak": "Эчпочмак Кирка",
-  "item.echpochmakmod.onion": "Лук"
+  "item.echpochmakmod.onion": "Лук",
+  "item.echpochmakmod.axeechpochmak": "Эчпочмак Топор",
+  "item.echpochmakmod.swordechpochmak": "Эчпочмак Меч",
+  "item.echpochmakmod.hoeechpochmak": "Эчпочмак Мотыга",
+  "item.echpochmakmod.shovelechpochmak": "Эчпочмак Лопата"
 }
