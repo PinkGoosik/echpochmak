@@ -16,7 +16,7 @@ public class ToolMaterialSuperEchpochmak implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 4f;
+        return 8f;
     }
 
     @Override
