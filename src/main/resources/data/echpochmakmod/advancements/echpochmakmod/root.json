@@ -13,7 +13,7 @@
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false,
-    "background": "minecraft:textures/block/diamond_block.png"
+    "background": "minecraft:textures/block/oak_planks.png"
   },
   "criteria": {
     "echpoch": {
@@ -24,7 +24,7 @@
             "item": "echpochmakmod:echpochmak",
             "count": {
               "min": 1,
-              "max": 1
+              "max": 64
             }
           }
         ]
