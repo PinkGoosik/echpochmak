@@ -13,5 +13,9 @@
   "item.echpochmakmod.supershovelechpochmak": "Супер Эчпочмак Лопата",
   "item.echpochmakmod.superhoeechpochmak": "Супер Эчпочмак Мотыга",
   "advancements.echpochmakmod.root.title": "Echpochmak Mod",
-  "advancements.echpochmakmod.root.description": "Добро Пожаловать в Эчпочмак Мод"
+  "advancements.echpochmakmod.root.description": "Добро Пожаловать в Эчпочмак Мод",
+  "advancements.echpochmakmod.eat_echpochmak.title": "Странный вкус",
+  "advancements.echpochmakmod.eat_echpochmak.description": "Съешьте эчпочмак",
+  "advancements.echpochmakmod.eat_onion.title": "Слезы счастья",
+  "advancements.echpochmakmod.eat_onion.description": "Съеште лук"
 }
