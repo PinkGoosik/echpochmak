@@ -10,5 +10,10 @@
   "item.echpochmakmod.superswordechpochmak": "Super Echpochmak Sword",
   "item.echpochmakmod.superpickaxeechpochmak": "Super Echpochmak Pickaxe",
   "advancements.echpochmakmod.root.title": "Echpochmak Mod",
-  "advancements.echpochmakmod.root.description": "Welcome to Echpochmak Mod"
+  "advancements.echpochmakmod.root.description": "Welcome to Echpochmak Mod",
+  "advancements.echpochmakmod.eat_echpochmak.title": "Strange Taste",
+  "advancements.echpochmakmod.eat_echpochmak.description": "Eat the echpochmak",
+  "advancements.echpochmakmod.eat_onion.title": "Tears of Happiness",
+  "advancements.echpochmakmod.eat_onion.description": "Eat the onion",
+
 }

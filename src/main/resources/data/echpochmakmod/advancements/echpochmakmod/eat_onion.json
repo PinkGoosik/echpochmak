@@ -1,0 +1,32 @@
+{
+  "parent": "echpochmakmod:echpochmakmod/root",
+  "display": {
+    "title": {
+      "translate": "advancements.echpochmakmod.eat_onion.title"
+    },
+    "description": {
+      "translate": "advancements.echpochmakmod.eat_onion.description"
+    },
+    "icon": {
+      "item": "echpochmakmod:onion"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eatonion": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "echpochmakmod:onion",
+          "count": {
+            "min": 1,
+            "max": 64
+          }
+        }
+      }
+    }
+  }
+}
