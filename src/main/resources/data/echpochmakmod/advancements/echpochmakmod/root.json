@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "echpochmakmod:echpochmak"
+    },
+    "title": {
+      "translate": "advancements.echpochmakmod.root.title"
+    },
+    "description": {
+      "translate": "advancements.echpochmakmod.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/diamond_block.png"
+  },
+  "criteria": {
+    "echpoch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "echpochmakmod:echpochmak",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

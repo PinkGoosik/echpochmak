@@ -8,5 +8,7 @@
   "item.echpochmakmod.hoeechpochmak": "Echpochmak Hoe",
   "item.echpochmakmod.shovelechpochmak": "Echpochmak Shovel",
   "item.echpochmakmod.superswordechpochmak": "Super Echpochmak Sword",
-  "item.echpochmakmod.superpickaxeechpochmak": "Super Echpochmak Pickaxe"
+  "item.echpochmakmod.superpickaxeechpochmak": "Super Echpochmak Pickaxe",
+  "advancements.echpochmakmod.root.title": "Echpochmak Mod",
+  "advancements.echpochmakmod.root.description": "Welcome to Echpochmak Mod"
 }
