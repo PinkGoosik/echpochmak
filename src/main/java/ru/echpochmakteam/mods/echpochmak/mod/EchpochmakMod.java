@@ -25,6 +25,7 @@ public class EchpochmakMod implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "shovelechpochmak"), new ShovelEchpochmak(new ToolMaterialEchpochmak()));
 		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "hoeechpochmak"), new HoeEchpochmak(new ToolMaterialEchpochmak()));
 		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "superswordechpochmak"), new SuperSwordEchpochmak(new ToolMaterialSuperEchpochmak()));
+		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "superpickaxeechpochmak"), new SuperPickaxeEchpochmak(new ToolMaterialSuperEchpochmak()));
 	}
 
 }

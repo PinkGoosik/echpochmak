@@ -7,6 +7,6 @@ import net.minecraft.item.ToolMaterial;
 
 public class SuperSwordEchpochmak extends SwordItem {
     public SuperSwordEchpochmak(ToolMaterial toolMaterial_1) {
-        super(toolMaterial_1, 0, -2, new Item.Settings().group(ItemGroup.COMBAT));
+        super(toolMaterial_1, 1, -2, new Item.Settings().group(ItemGroup.COMBAT));
     }
 }

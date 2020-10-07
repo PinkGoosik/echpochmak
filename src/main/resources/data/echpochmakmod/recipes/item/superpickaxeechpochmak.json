@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " X ",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "echpochmakmod:superechpochmak"
+    },
+    "X": {
+      "item": "minecraft:netherite_pickaxe"
+    }
+  },
+  "result": {
+    "item": "echpochmakmod:superpickaxeechpochmak"
+  }
+}
