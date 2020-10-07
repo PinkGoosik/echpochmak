@@ -8,5 +8,7 @@
   "item.echpochmakmod.hoeechpochmak": "Эчпочмак Мотыга",
   "item.echpochmakmod.shovelechpochmak": "Эчпочмак Лопата",
   "item.echpochmakmod.superswordechpochmak": "Супер Эчпочмак Меч",
-  "item.echpochmakmod.superpickaxeechpochmak": "Супер Эчпочмак Кирка"
+  "item.echpochmakmod.superpickaxeechpochmak": "Супер Эчпочмак Кирка",
+  "advancements.echpochmakmod.root.title": "Echpochmak Mod",
+  "advancements.echpochmakmod.root.description": "Добро Пожаловать в Эчпочмак Мод"
 }
