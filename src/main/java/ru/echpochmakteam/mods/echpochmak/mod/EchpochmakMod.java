@@ -16,7 +16,7 @@ public class EchpochmakMod implements ModInitializer {
 	public static final Item ONION = new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().saturationModifier(2f).hunger(1).statusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 20*10),1f).build()));
 	@Override
 	public void onInitialize() {
-		// LootTableEchpochmak.init();
+		LootTableEchpochmak .init();
 		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "echpochmak"), ECHPOCHMAK);
 		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "superechpochmak"), SUPERECHPOCHMAK);
 		Registry.register(Registry.ITEM, new Identifier("echpochmakmod", "onion"), ONION);
