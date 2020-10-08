@@ -20,40 +20,19 @@ public class LootTableEchpochmak {
 
 
     public static void init() {
-        FabricLootPoolBuilder SUP_ECH = FabricLootPoolBuilder.builder()
-                .rolls(ConstantLootTableRange.create(1))
-                .with(ItemEntry.builder(EchpochmakMod.ECHPOCHMAK))
-                .withCondition(RandomChanceLootCondition.builder(0.031F).build());
-
-        insert(new LootTableInsert(SUP_ECH,
-                new Identifier("minecraft", "chests/simple_dungeon" +
-                        "")
-        ));
-        FabricLootPoolBuilder SUP_ECH1 = FabricLootPoolBuilder.builder()
-                .rolls(ConstantLootTableRange.create(1))
-                .with(ItemEntry.builder(EchpochmakMod.ECHPOCHMAK))
-                .withCondition(RandomChanceLootCondition.builder(0.031F).build());
-
-        insert(new LootTableInsert(SUP_ECH1,
-                new Identifier("minecraft", "chests/simple_dungeon" +
-                        "")
-        ));
-
-
-
+        FabricLootPoolBuilder SUP_ECH = FabricLootPoolBuilder.builder().rolls(ConstantLootTableRange.create(1)).with(ItemEntry.builder(EchpochmakMod.ECHPOCHMAK)).withCondition(RandomChanceLootCondition.builder(0.031F).build());
+        insert(new LootTableInsert(SUP_ECH,new Identifier("minecraft", "chests/simple_dungeon" + "")));
+        FabricLootPoolBuilder SUP_ECH1 = FabricLootPoolBuilder.builder().rolls(ConstantLootTableRange.create(1)).with(ItemEntry.builder(EchpochmakMod.ECHPOCHMAK)).withCondition(RandomChanceLootCondition.builder(0.031F).build());
+        insert(new LootTableInsert(SUP_ECH1,new Identifier("minecraft", "chests/simple_dungeon" + "")));
         LootTableLoadingCallback.EVENT.register(((resourceManager, lootManager, identifier, supplier, lootTableSetter) -> {
-            INSERTS.forEach(i -> {
-                if (ArrayUtils.contains(i.tables, identifier)) {
-                    i.insert(supplier);
+            INSERTS.forEach(i -> {if (ArrayUtils.contains(i.tables, identifier)) {i.insert(supplier);
                 }
             });
         }));
     }
-
     public static void insert(LootTableInsert insert) {
         INSERTS.add(insert);
     }
-
     public static class LootTableInsert {
         public final Identifier[] tables;
         public final FabricLootPoolBuilder lootPool;
@@ -62,7 +41,6 @@ public class LootTableEchpochmak {
             this.tables = tables;
             this.lootPool = lootPool;
         }
-
         public void insert(FabricLootSupplierBuilder supplier) {
             supplier.pool(lootPool);
         }
