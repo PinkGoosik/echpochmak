@@ -1,0 +1,34 @@
+{
+  "parent": "echpochmakmod:echpochmakmod/craft_supechpickaxe",
+  "display": {
+    "title": {
+      "translate": "advancements.echpochmakmod.craft_supechhoe.title"
+    },
+    "description": {
+      "translate": "advancements.echpochmakmod.craft_supechhoe.description"
+    },
+    "icon": {
+      "item": "echpochmakmod:superhoeechpochmak"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "supechhoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "echpochmakmod:superhoeechpochmak",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

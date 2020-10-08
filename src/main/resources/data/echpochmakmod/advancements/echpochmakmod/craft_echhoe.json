@@ -1,0 +1,34 @@
+{
+  "parent": "echpochmakmod:echpochmakmod/craft_echpickaxe",
+  "display": {
+    "title": {
+      "translate": "advancements.echpochmakmod.craft_echhoe.title"
+    },
+    "description": {
+      "translate": "advancements.echpochmakmod.craft_echhoe.description"
+    },
+    "icon": {
+      "item": "echpochmakmod:hoeechpochmak"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "echhoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "echpochmakmod:hoeechpochmak",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}
