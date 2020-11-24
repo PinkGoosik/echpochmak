@@ -1,37 +1,37 @@
-package ru.echpochmakteam.mods.echpochmak.mod.instruments;
+package ru.echpochmakteam.echpochmakmod.instruments;
 
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import ru.echpochmakteam.mods.echpochmak.mod.EchpochmakMod;
+import ru.echpochmakteam.echpochmakmod.EchpochmakMod;
 
-public class ToolMaterialEchpochmak implements ToolMaterial {
+public class ToolMaterialSuperEchpochmak implements ToolMaterial {
     @Override
     public int getDurability() {
-        return 169;
+        return 2031;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 2.0f;
+        return 12f;
     }
 
     @Override
     public float getAttackDamage() {
-        return 1.0f;
+        return 8f;
     }
 
     @Override
     public int getMiningLevel() {
-        return 1;
+        return 4;
     }
 
     @Override
     public int getEnchantability() {
-        return 2;
+        return 22;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(EchpochmakMod.ECHPOCHMAK);
+        return Ingredient.ofItems(EchpochmakMod.SUPERECHPOCHMAK);
     }
 }

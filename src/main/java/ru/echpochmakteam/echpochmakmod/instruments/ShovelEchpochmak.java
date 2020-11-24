@@ -1,10 +1,10 @@
-package ru.echpochmakteam.mods.echpochmak.mod.instruments;
+package ru.echpochmakteam.echpochmakmod.instruments;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ShovelItem;
 import net.minecraft.item.ToolMaterial;
-import ru.echpochmakteam.mods.echpochmak.mod.EchpochmakMod;
+import ru.echpochmakteam.echpochmakmod.EchpochmakMod;
 
 public class ShovelEchpochmak extends ShovelItem {
     public ShovelEchpochmak(ToolMaterial toolmaterial_1) {

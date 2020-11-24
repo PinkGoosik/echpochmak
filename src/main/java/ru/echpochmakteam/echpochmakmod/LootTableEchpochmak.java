@@ -1,4 +1,4 @@
-package ru.echpochmakteam.mods.echpochmak.mod;
+package ru.echpochmakteam.echpochmakmod;
 import java.util.List;
 
 import net.minecraft.loot.function.LootFunction;

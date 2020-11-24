@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "ru.echpochmakteam.mods.echpochmak.mod.EchpochmakMod"
+      "ru.echpochmakteam.echpochmakmod.EchpochmakMod"
     ]
   },
   "mixins": [
