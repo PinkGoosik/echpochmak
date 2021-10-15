@@ -4,13 +4,14 @@
   "version": "${version}",
 
   "name": "Echpochmak Mod",
-  "description": "Echpochamk mod is the first tyap lyap modding club mod that adds echpochamk and some fun stuff.",
+  "description": "Echpochmak mod is the first tyap lyap modding club mod that adds echpochmak and some fun stuff.",
   "authors": [
-    "Tyap Lyap Moding Club:",
+    "Tyap Lyap Modding Club:",
     "PinkGoosik",
     "Librarian Night",
     "Spusik"
   ],
+
   "contact": {
     "sources": "https://github.com/PinkGoosik/Echpochmak-Mod"
   },
@@ -24,15 +25,13 @@
       "ru.echpochmak.EchpochmakMod"
     ]
   },
+
   "mixins": [
   ],
 
   "depends": {
-    "fabricloader": ">=0.12.1",
+    "fabricloader": ">=0.11.6",
     "fabric": "*",
     "minecraft": "1.17.x"
-  },
-  "suggests": {
-    "flamingo": "*"
   }
 }
