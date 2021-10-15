@@ -8,7 +8,7 @@
       "translate": "advancements.echpochmakmod.craft_echpickaxe.description"
     },
     "icon": {
-      "item": "echpochmakmod:pickaxeechpochmak"
+      "item": "echpochmakmod:echpochmak_pickaxe"
     },
     "frame": "task",
     "show_toast": true,
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "item": "echpochmakmod:pickaxeechpochmak",
+            "item": "echpochmakmod:echpochmak_pickaxe",
             "count": {
               "min": 1,
               "max": 1

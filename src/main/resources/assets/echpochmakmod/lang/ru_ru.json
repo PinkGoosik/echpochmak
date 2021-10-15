@@ -1,31 +1,44 @@
 {
+  "itemGroup.echpochmakmod.items": "Echpochmak Предметы",
+  "itemGroup.echpochmakmod.tools": "Echpochmak Инструменты",
+
   "item.echpochmakmod.echpochmak": "Эчпочмак",
-  "item.echpochmakmod.superechpochmak": "Супер эчпочмак",
-  "item.echpochmakmod.pickaxeechpochmak": "Эчпочмаковая кирка",
+  "item.echpochmakmod.super_echpochmak": "Супер эчпочмак",
   "item.echpochmakmod.onion": "Лук",
-  "item.echpochmakmod.axeechpochmak": "Эчпочмаковый топор",
-  "item.echpochmakmod.swordechpochmak": "Эчпочмаковый меч",
-  "item.echpochmakmod.hoeechpochmak": "Эчпочмаковая мотыга",
-  "item.echpochmakmod.shovelechpochmak": "Эчпочмаковая лопата",
-  "item.echpochmakmod.superswordechpochmak": "Супер эчпочмаковый меч",
-  "item.echpochmakmod.superpickaxeechpochmak": "Супер эчпочмаковая кирка",
-  "item.echpochmakmod.superaxeechpochmak": "Супер эчпочмаковый топор",
-  "item.echpochmakmod.supershovelechpochmak": "Супер эчпочмаковая лопата",
-  "item.echpochmakmod.superhoeechpochmak": "Супер эчпочмаковая мотыга",
+
+  "item.echpochmakmod.echpochmak_sword": "Эчпочмаковый меч",
+  "item.echpochmakmod.echpochmak_pickaxe": "Эчпочмаковая кирка",
+  "item.echpochmakmod.echpochmak_axe": "Эчпочмаковый топор",
+  "item.echpochmakmod.echpochmak_shovel": "Эчпочмаковая лопата",
+  "item.echpochmakmod.echpochmak_hoe": "Эчпочмаковая мотыга",
+
+  "item.echpochmakmod.super_echpochmak_sword": "Супер эчпочмаковый меч",
+  "item.echpochmakmod.super_echpochmak_pickaxe": "Супер эчпочмаковая кирка",
+  "item.echpochmakmod.super_echpochmak_axe": "Супер эчпочмаковый топор",
+  "item.echpochmakmod.super_echpochmak_shovel": "Супер эчпочмаковая лопата",
+  "item.echpochmakmod.super_echpochmak_hoe": "Супер эчпочмаковая мотыга",
+
   "advancements.echpochmakmod.root.title": "Echpochmak Mod",
   "advancements.echpochmakmod.root.description": "Добро Пожаловать в Эчпочмак Мод",
+
   "advancements.echpochmakmod.eat_echpochmak.title": "Странный вкус",
   "advancements.echpochmakmod.eat_echpochmak.description": "Попробуйте эчпочмак",
+
   "advancements.echpochmakmod.eat_onion.title": "Слезы радости",
   "advancements.echpochmakmod.eat_onion.description": "Попробуйте лук",
+
   "advancements.echpochmakmod.craft_echpickaxe.title": "Ихор... то есть эчпочмак!",
   "advancements.echpochmakmod.craft_echpickaxe.description": "Создайте эчпочмаковую кирку",
+
   "advancements.echpochmakmod.craft_echhoe.title": "Бесп... Ой, Мотыга!",
   "advancements.echpochmakmod.craft_echhoe.description": "Сделайте эчпочмаковую мотыгу",
-  "advancements.echpochmakmod.eat_superechpochmak.title": "Ох, мой живот...",
-  "advancements.echpochmakmod.eat_superechpochmak.description": "Попробуйте супер эчпочмак",
+
+  "advancements.echpochmakmod.eat_super_echpochmak.title": "Ох, мой живот...",
+  "advancements.echpochmakmod.eat_super_echpochmak.description": "Попробуйте супер эчпочмак",
+
   "advancements.echpochmakmod.craft_superechpickaxe.title": "Пробужденный ихор... нет, супер эчпочмак!",
   "advancements.echpochmakmod.craft_superechpickaxe.description":  "Сделайте супер эчпочмаковую кирку",
+
   "advancements.echpochmakmod.craft_supechhoe.title": "Супер бесп... Я имел ввиду мотыгу, конечно",
   "advancements.echpochmakmod.craft_supechhoe.description": "Сделайте супер эчпочмаковую мотыгу"
 }

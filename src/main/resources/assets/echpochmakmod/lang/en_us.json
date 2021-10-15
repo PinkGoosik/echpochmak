@@ -1,32 +1,44 @@
 {
-  "itemGroup.echpochmakmod.general": "Echpochmak Mod",
+  "itemGroup.echpochmakmod.items": "Echpochmak Items",
+  "itemGroup.echpochmakmod.tools": "Echpochmak Tools",
+
   "item.echpochmakmod.echpochmak": "Echpochmak",
-  "item.echpochmakmod.superechpochmak": "Super Echpochmak",
-  "item.echpochmakmod.pickaxeechpochmak": "Echpochmak Pickaxe",
+  "item.echpochmakmod.super_echpochmak": "Super Echpochmak",
   "item.echpochmakmod.onion": "Onion",
-  "item.echpochmakmod.axeechpochmak": "Echpochmak Axe",
-  "item.echpochmakmod.swordechpochmak": "Echpochmak Sword",
-  "item.echpochmakmod.hoeechpochmak": "Echpochmak Hoe",
-  "item.echpochmakmod.shovelechpochmak": "Echpochmak Shovel",
-  "item.echpochmakmod.superswordechpochmak": "Super Echpochmak Sword",
-  "item.echpochmakmod.superpickaxeechpochmak": "Super Echpochmak Pickaxe",
-  "item.echpochmakmod.superaxeechpochmak": "Super Echpochmak Axe",
-  "item.echpochmakmod.supershovelechpochmak": "Super Echpochmak Shovel",
-  "item.echpochmakmod.superhoeechpochmak": "Super Echpochmak Hoe",
+
+  "item.echpochmakmod.echpochmak_sword": "Echpochmak Sword",
+  "item.echpochmakmod.echpochmak_pickaxe": "Echpochmak Pickaxe",
+  "item.echpochmakmod.echpochmak_axe": "Echpochmak Axe",
+  "item.echpochmakmod.echpochmak_shovel": "Echpochmak Shovel",
+  "item.echpochmakmod.echpochmak_hoe": "Echpochmak Hoe",
+
+  "item.echpochmakmod.super_echpochmak_sword": "Super Echpochmak Sword",
+  "item.echpochmakmod.super_echpochmak_pickaxe": "Super Echpochmak Pickaxe",
+  "item.echpochmakmod.super_echpochmak_axe": "Super Echpochmak Axe",
+  "item.echpochmakmod.super_echpochmak_shovel": "Super Echpochmak Shovel",
+  "item.echpochmakmod.super_echpochmak_hoe": "Super Echpochmak Hoe",
+
   "advancements.echpochmakmod.root.title": "Echpochmak Mod",
   "advancements.echpochmakmod.root.description": "Welcome to Echpochmak Mod",
+
   "advancements.echpochmakmod.eat_echpochmak.title": "Strange Taste",
   "advancements.echpochmakmod.eat_echpochmak.description": "Eat the echpochmak",
+
   "advancements.echpochmakmod.eat_onion.title": "Tears of Happiness",
   "advancements.echpochmakmod.eat_onion.description": "Eat the onion",
+
   "advancements.echpochmakmod.craft_echpickaxe.title": "Ichor... I mean Echpochmak!",
   "advancements.echpochmakmod.craft_echpickaxe.description": "Craft the Echpochmak Pickaxe",
+
   "advancements.echpochmakmod.craft_echhoe.title": "Usle... Oh, Hoe!",
   "advancements.echpochmakmod.craft_echhoe.description": "Craft the Echpochmak Hoe",
-  "advancements.echpochmakmod.eat_superechpochmak.title": "Oh, my dear stomach....",
-  "advancements.echpochmakmod.eat_superechpochmak.description": "Eat the super echpochmak",
+
+  "advancements.echpochmakmod.eat_super_echpochmak.title": "Oh, my dear stomach....",
+  "advancements.echpochmakmod.eat_super_echpochmak.description": "Eat the super echpochmak",
+
   "advancements.echpochmakmod.craft_superechpickaxe.title": "Awakened Ichor... no, Super Echpochmak",
   "advancements.echpochmakmod.craft_superechpickaxe.description":  "Craft the Super Echpochmak Pickaxe",
+
   "advancements.echpochmakmod.craft_supechhoe.title": "Super usle.. I mean Hoe, of course",
   "advancements.echpochmakmod.craft_supechhoe.description": "Craft the Super Echpochmak Hoe"
 }

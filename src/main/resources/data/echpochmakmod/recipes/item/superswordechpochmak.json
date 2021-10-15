@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "minecraft:netherite_sword"
+    "item": "echpochmakmod:echpochmak_sword"
   },
   "addition": {
-    "item": "echpochmakmod:superechpochmak"
+    "item": "echpochmakmod:super_echpochmak"
   },
   "result": {
-    "item": "echpochmakmod:superswordechpochmak"
+    "item": "echpochmakmod:super_echpochmak_sword"
   }
 }

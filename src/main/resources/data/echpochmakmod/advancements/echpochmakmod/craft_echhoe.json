@@ -8,7 +8,7 @@
       "translate": "advancements.echpochmakmod.craft_echhoe.description"
     },
     "icon": {
-      "item": "echpochmakmod:hoeechpochmak"
+      "item": "echpochmakmod:echpochmak_hoe"
     },
     "frame": "challenge",
     "show_toast": true,
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "item": "echpochmakmod:hoeechpochmak",
+            "item": "echpochmakmod:echpochmak_hoe",
             "count": {
               "min": 1,
               "max": 1

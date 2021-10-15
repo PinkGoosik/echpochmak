@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "echpochmakmod:echpochmak_shovel"
+  },
+  "addition": {
+    "item": "echpochmakmod:super_echpochmak"
+  },
+  "result": {
+    "item": "echpochmakmod:super_chpochmak_shovel"
+  }
+}

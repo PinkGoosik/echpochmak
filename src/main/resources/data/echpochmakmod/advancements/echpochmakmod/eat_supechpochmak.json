@@ -2,13 +2,13 @@
   "parent": "echpochmakmod:echpochmakmod/root",
   "display": {
     "title": {
-      "translate": "advancements.echpochmakmod.eat_superechpochmak.title"
+      "translate": "advancements.echpochmakmod.eat_super_echpochmak.title"
     },
     "description": {
-      "translate": "advancements.echpochmakmod.eat_superechpochmak.description"
+      "translate": "advancements.echpochmakmod.eat_super_echpochmak.description"
     },
     "icon": {
-      "item": "echpochmakmod:superechpochmak"
+      "item": "echpochmakmod:super_echpochmak"
     },
     "frame": "goal",
     "show_toast": true,
@@ -20,7 +20,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "echpochmakmod:superechpochmak",
+          "item": "echpochmakmod:super_echpochmak",
           "count": {
             "min": 1,
             "max": 64
