@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.echpochmakmod.craft_super_echpickaxe.name"
+    },
+    "description": {
+      "translate": "advancements.echpochmakmod.craft_super_echpickaxe.description"
+    },
+    "icon": {
+      "item": "echpochmakmod:super_echpochmak_pickaxe"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "craft_super_echpick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "echpochmakmod:super_echpochmak_pickaxe"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "echpochmakmod:eat_super_echpochmak"
+}

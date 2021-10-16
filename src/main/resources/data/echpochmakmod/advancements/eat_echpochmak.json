@@ -1,8 +1,7 @@
 {
-  "parent": "echpochmakmod:echpochmakmod/root",
   "display": {
     "title": {
-      "translate": "advancements.echpochmakmod.eat_echpochmak.title"
+      "translate": "advancements.echpochmakmod.eat_echpochmak.name"
     },
     "description": {
       "translate": "advancements.echpochmakmod.eat_echpochmak.description"
@@ -16,17 +15,16 @@
     "hidden": false
   },
   "criteria": {
-    "eatonion": {
+    "eat_ech": {
       "trigger": "minecraft:consume_item",
       "conditions": {
-        "item": {
-          "item": "echpochmakmod:echpochmak",
-          "count": {
-            "min": 1,
-            "max": 64
+        "items": [
+          {
+            "item": "echpochmakmod:echpochmak"
           }
-        }
+        ]
       }
     }
-  }
+  },
+  "parent": "echpochmakmod:root"
 }

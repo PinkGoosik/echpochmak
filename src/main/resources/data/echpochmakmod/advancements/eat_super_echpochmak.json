@@ -1,8 +1,7 @@
 {
-  "parent": "echpochmakmod:echpochmakmod/root",
   "display": {
     "title": {
-      "translate": "advancements.echpochmakmod.eat_super_echpochmak.title"
+      "translate": "advancements.echpochmakmod.eat_super_echpochmak.name"
     },
     "description": {
       "translate": "advancements.echpochmakmod.eat_super_echpochmak.description"
@@ -13,20 +12,19 @@
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "criteria": {
-    "eatonion": {
+    "eat_super_ech": {
       "trigger": "minecraft:consume_item",
       "conditions": {
-        "item": {
-          "item": "echpochmakmod:super_echpochmak",
-          "count": {
-            "min": 1,
-            "max": 64
+        "items": [
+          {
+            "item": "echpochmakmod:super_echpochmak"
           }
-        }
+        ]
       }
     }
-  }
+  },
+  "parent": "echpochmakmod:root"
 }

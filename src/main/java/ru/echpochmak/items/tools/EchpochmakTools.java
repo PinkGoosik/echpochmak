@@ -23,11 +23,11 @@ public class EchpochmakTools {
     public static final ToolItem ECHPOCHMAK_SHOVEL = add("echpochmak_shovel", new BaseShovelItem(EchpochmakMaterial.ECHPOCHMAK_MATERIAL, 0, -2.2f, settings()));
     public static final ToolItem ECHPOCHMAK_HOE = add("echpochmak_hoe", new BaseHoeItem(EchpochmakMaterial.ECHPOCHMAK_MATERIAL, 0, -2.2f, settings()));
 
-    public static final ToolItem SUPER_ECHPOCHMAK_SWORD = add("super_echpochmak_sword", new BaseSwordItem(SuperEchpochmakMaterial.SUPER_ECHPOCHMAK_MATERIAL, 0, -2.1f, super_settings()));
-    public static final ToolItem SUPER_ECHPOCHMAK_PICKAXE = add("super_echpochmak_pickaxe", new BasePickaxeItem(SuperEchpochmakMaterial.SUPER_ECHPOCHMAK_MATERIAL, -2, -2.5f, super_settings()));
-    public static final ToolItem SUPER_ECHPOCHMAK_AXE = add("super_echpochmak_axe", new BaseAxeItem(SuperEchpochmakMaterial.SUPER_ECHPOCHMAK_MATERIAL, 2, -2.7f, super_settings()));
-    public static final ToolItem SUPER_ECHPOCHMAK_SHOVEL = add("super_echpochmak_shovel", new BaseShovelItem(SuperEchpochmakMaterial.SUPER_ECHPOCHMAK_MATERIAL, (int) -1.5f, -2.7f, super_settings()));
-    public static final ToolItem SUPER_ECHPOCHMAK_HOE = add("super_echpochmak_hoe", new BaseHoeItem(SuperEchpochmakMaterial.SUPER_ECHPOCHMAK_MATERIAL,  -6, 0.3f, super_settings()));
+    public static final ToolItem SUPER_ECHPOCHMAK_SWORD = add("super_echpochmak_sword", new BaseSwordItem(SuperEchpochmakMaterial.SUPER_ECHPOCHMAK_MATERIAL, 0, -2.1f, settings().rarity(Rarity.EPIC)));
+    public static final ToolItem SUPER_ECHPOCHMAK_PICKAXE = add("super_echpochmak_pickaxe", new BasePickaxeItem(SuperEchpochmakMaterial.SUPER_ECHPOCHMAK_MATERIAL, -2, -2.5f, settings().rarity(Rarity.EPIC)));
+    public static final ToolItem SUPER_ECHPOCHMAK_AXE = add("super_echpochmak_axe", new BaseAxeItem(SuperEchpochmakMaterial.SUPER_ECHPOCHMAK_MATERIAL, 2, -2.7f, settings()));
+    public static final ToolItem SUPER_ECHPOCHMAK_SHOVEL = add("super_echpochmak_shovel", new BaseShovelItem(SuperEchpochmakMaterial.SUPER_ECHPOCHMAK_MATERIAL, (int) -1.5f, -2.7f, settings().rarity(Rarity.EPIC)));
+    public static final ToolItem SUPER_ECHPOCHMAK_HOE = add("super_echpochmak_hoe", new BaseHoeItem(SuperEchpochmakMaterial.SUPER_ECHPOCHMAK_MATERIAL,  -6, 0.3f, settings().rarity(Rarity.EPIC)));
 
     private static <I extends ToolItem> I add(String name, I item) {
         TOOLITEMS.put(new Identifier(EchpochmakMod.MODID, name), item);
@@ -36,10 +36,6 @@ public class EchpochmakTools {
 
     private static FabricItemSettings settings(){
         return new FabricItemSettings().group(EchpochmakMod.ECH_TOOLS);
-    }
-
-    private static FabricItemSettings super_settings(){
-        return new FabricItemSettings().rarity(Rarity.EPIC).group(EchpochmakMod.ECH_TOOLS);
     }
 
     public static void register() {

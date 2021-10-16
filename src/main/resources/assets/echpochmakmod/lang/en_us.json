@@ -18,27 +18,27 @@
   "item.echpochmakmod.super_echpochmak_shovel": "Super Echpochmak Shovel",
   "item.echpochmakmod.super_echpochmak_hoe": "Super Echpochmak Hoe",
 
-  "advancements.echpochmakmod.root.title": "Echpochmak Mod",
+  "advancements.echpochmakmod.root.name": "Echpochmak Mod",
   "advancements.echpochmakmod.root.description": "Welcome to Echpochmak Mod",
 
-  "advancements.echpochmakmod.eat_echpochmak.title": "Strange Taste",
+  "advancements.echpochmakmod.eat_echpochmak.name": "Strange Taste",
   "advancements.echpochmakmod.eat_echpochmak.description": "Eat the echpochmak",
 
-  "advancements.echpochmakmod.eat_onion.title": "Tears of Happiness",
+  "advancements.echpochmakmod.eat_onion.name": "Tears of Happiness",
   "advancements.echpochmakmod.eat_onion.description": "Eat the onion",
 
-  "advancements.echpochmakmod.craft_echpickaxe.title": "Ichor... I mean Echpochmak!",
+  "advancements.echpochmakmod.craft_echpickaxe.name": "Ichor... I mean Echpochmak!",
   "advancements.echpochmakmod.craft_echpickaxe.description": "Craft the Echpochmak Pickaxe",
 
-  "advancements.echpochmakmod.craft_echhoe.title": "Usle... Oh, Hoe!",
+  "advancements.echpochmakmod.craft_echhoe.name": "Usle... Oh, Hoe!",
   "advancements.echpochmakmod.craft_echhoe.description": "Craft the Echpochmak Hoe",
 
-  "advancements.echpochmakmod.eat_super_echpochmak.title": "Oh, my dear stomach....",
+  "advancements.echpochmakmod.eat_super_echpochmak.name": "Oh, my dear stomach....",
   "advancements.echpochmakmod.eat_super_echpochmak.description": "Eat the super echpochmak",
 
-  "advancements.echpochmakmod.craft_superechpickaxe.title": "Awakened Ichor... no, Super Echpochmak",
-  "advancements.echpochmakmod.craft_superechpickaxe.description":  "Craft the Super Echpochmak Pickaxe",
+  "advancements.echpochmakmod.craft_super_echpickaxe.name": "Awakened Ichor... no, Super Echpochmak",
+  "advancements.echpochmakmod.craft_super_echpickaxe.description":  "Craft the Super Echpochmak Pickaxe",
 
-  "advancements.echpochmakmod.craft_supechhoe.title": "Super usle.. I mean Hoe, of course",
-  "advancements.echpochmakmod.craft_supechhoe.description": "Craft the Super Echpochmak Hoe"
+  "advancements.echpochmakmod.craft_super_echhoe.name": "Super usle.. I mean Hoe, of course",
+  "advancements.echpochmakmod.craft_super_echhoe.description": "Craft the Super Echpochmak Hoe"
 }
