@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class EchpochmakLootTables {
+
     private static FabricLootSupplierBuilder supplier;
     private static Identifier id;
 
@@ -32,6 +33,7 @@ public class EchpochmakLootTables {
 
             overworldChest(EchpochmakItems.SUPER_ECHPOCHMAK, 0.1F);
         });
+
     }
 
     static void overworldChest(Item item, Float chance){
