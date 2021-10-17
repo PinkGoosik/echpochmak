@@ -20,7 +20,9 @@
       "conditions": {
         "items": [
           {
-            "item": "echpochmakmod:super_echpochmak_pickaxe"
+            "items": [
+              "echpochmakmod:super_echpochmak_pickaxe"
+            ]
           }
         ]
       }

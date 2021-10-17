@@ -18,11 +18,11 @@
     "eat_super_ech": {
       "trigger": "minecraft:consume_item",
       "conditions": {
-        "items": [
-          {
-            "item": "echpochmakmod:super_echpochmak"
-          }
-        ]
+        "item": {
+          "items": [
+            "echpochmakmod:super_echpochmak"
+          ]
+        }
       }
     }
   },

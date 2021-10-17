@@ -18,11 +18,11 @@
     "eat_ech": {
       "trigger": "minecraft:consume_item",
       "conditions": {
-        "items": [
-          {
-            "item": "echpochmakmod:echpochmak"
-          }
-        ]
+        "item": {
+          "items": [
+            "echpochmakmod:echpochmak"
+          ]
+        }
       }
     }
   },

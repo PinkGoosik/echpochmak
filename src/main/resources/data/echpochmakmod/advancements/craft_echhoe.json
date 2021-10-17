@@ -20,7 +20,9 @@
       "conditions": {
         "items": [
           {
-            "item": "echpochmakmod:echpochmak_hoe"
+            "items": [
+              "echpochmakmod:echpochmak_hoe"
+            ]
           }
         ]
       }

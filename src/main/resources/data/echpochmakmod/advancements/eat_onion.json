@@ -18,11 +18,11 @@
     "eat_onion": {
       "trigger": "minecraft:consume_item",
       "conditions": {
-        "items": [
-          {
-            "item": "echpochmakmod:onion"
-          }
-        ]
+        "item": {
+          "items": [
+            "echpochmakmod:onion"
+          ]
+        }
       }
     }
   },

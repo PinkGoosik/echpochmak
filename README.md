@@ -6,4 +6,4 @@
 </div>
 
 ## About
-Echpochamk mod is the first tyap lyap modding club mod that adds echpochamk and some fun stuff.
+Echpochmak mod is the first tyap-lyap modding club's mod that adds echpochmak and some other fun stuff.
